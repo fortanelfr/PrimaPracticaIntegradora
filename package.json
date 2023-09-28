@@ -1,0 +1,21 @@
+{
+  "name": "Primer Entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.0",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.1"
+  }
+}
